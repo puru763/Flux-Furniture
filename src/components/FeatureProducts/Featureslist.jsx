@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import features from "./features.json";
+import "./Featureslist.scss";
 import FeatureProduct from "./FeatureProduct";
 const Featureslist = () => {
   const [featuredItems, setFeaturedItems] = useState([]);
@@ -12,14 +13,18 @@ const Featureslist = () => {
 
     updateFeaturedItems();
 
-    const intervalId = setInterval(updateFeaturedItems, 15000);
+    const intervalId = setInterval(updateFeaturedItems, 5000);
 
     return () => clearInterval(intervalId);
   }, []);
   return (
     <div>
       <div className="feature-heading">Featured Items</div>
-      <FeatureProduct data={featuredItems} />
+      <div className="fe-data">
+        {featuredItems.map((item, index) => (
+          <FeatureProduct key={index} data={item} />
+        ))}
+      </div>
     </div>
   );
 };

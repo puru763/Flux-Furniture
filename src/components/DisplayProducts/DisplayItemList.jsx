@@ -18,7 +18,7 @@ const DisplayItemList = () => {
   return (
     <div>
       {filteredData.map((item) => (
-        <DisplayProducts key={item.id} src={item.src} name={item.name} />
+        <DisplayProducts key={item.id} src={item.src} name={item.description} />
       ))}
     </div>
   );

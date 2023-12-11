@@ -1,14 +1,13 @@
 import React from "react";
-import "./FeatureProduct.scss"
+import "./FeatureProduct.scss";
 
 const FeatureProduct = (props) => {
   return (
     <div className="fe-container">
       <div className="fe-img">
-        <img src={props.src} alt="" />
+        <img src={props.data.src} alt="" />
       </div>
-
-      <div className="fe-name">{props.name}</div>
+      <div className="fe-name">{props.data.name}</div>
     </div>
   );
 };

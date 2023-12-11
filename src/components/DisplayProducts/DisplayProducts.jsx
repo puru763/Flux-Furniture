@@ -8,7 +8,7 @@ const DisplayProducts = (props) => {
         <img src={props.src} alt="" />
       </div>
 
-      <div className="dis-name">{props.name}</div>
+      <div className="dis-name">{props.description}</div>
     </div>
   );
 };

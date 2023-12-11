@@ -2,25 +2,25 @@
   {
     "key": 1,
     "title": "sofa",
-    "name": "sofa",
+    "name": "SOFA",
     "src": "https://www.at-home.co.in/cdn/shop/files/Rebecca3strLS.jpg?v=1686905820"
   },
   {
     "key": 2,
     "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRophVKDna9WSSiEDbYVEl_q7JN9yTjnPfzSw&usqp=CAU",
     "title": "headboard",
-    "name": "headboard"
+    "name": "HEADBOARD"
   },
   {
     "key": 3,
     "src": "https://www.royaloakindia.com/_next/image?url=https%3A%2F%2Fmedia.royaloakindia.com%2Fmedia%2Fcatalog%2Fproduct%2Fr%2Fo%2Froyaloak-comfort-luxe-king-size-mattress-2.jpg&w=828&q=80",
     "title": "mattressbed",
-    "name": "mattressbed"
+    "name": "MATTRESSBED"
   },
   {
     "key": 4,
     "src": "https://media.homecentre.com/i/homecentre/164494981-164494980-HC20220518_06-2100.jpg?fmt=auto&$quality-standard$&sm=c&$prodimg-m-sqr-pdp-2x$",
     "title": "curtains",
-    "name": "curtains"
+    "name": "CURTAINS"
   }
 ]

@@ -18,6 +18,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products/:category" element={<DisplayItemList/>} />
+          {/* <Route path="/products/:category/:productId" element={<ProductDetails />} /> */}
+
 
 
 
