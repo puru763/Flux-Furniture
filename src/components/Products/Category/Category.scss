@@ -1,0 +1,30 @@
+.category-container {
+  width: 20%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 2px;
+  text-decoration: none;
+  color: black;
+}
+.cat-img {
+  height: 30vh;
+  object-fit: contain; /* or "cover" depending on your preference */
+}
+
+
+.cat-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cat-name {
+  height: 5vh;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}

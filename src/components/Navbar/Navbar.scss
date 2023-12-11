@@ -1,0 +1,42 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8vw 1.2vw;
+  color: var(--blue);
+}
+
+.logo {
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: none;
+
+  a {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: bold;
+
+    &:hover {
+      color: var(--dark-blue);
+    }
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+
+  a {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 500;
+
+    &.active {
+      border-bottom: 2px solid var(--blue);
+    }
+
+    &:hover {
+      color: var(--dark-blue);
+    }
+  }
+}

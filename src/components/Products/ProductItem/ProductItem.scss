@@ -1,0 +1,24 @@
+.ProductItem-container{
+    height: 35vh;
+    width: 20%;
+   
+}
+
+.profuctitem-img{
+    height: 30vh;
+    background-color: aqua;
+}
+.details-btn{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--white); 
+    background-color: var(--blue); 
+}
+
+.btn{
+    color: var(--white);
+}

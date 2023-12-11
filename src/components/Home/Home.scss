@@ -1,0 +1,48 @@
+.home-container {
+  display: flex;
+  height: 80vh;
+}
+.home-container-text {
+  font-weight: bold;
+
+  width: 30%;
+  font-size: 4vw;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  padding-left: 4vw;
+  color: var(--blue);
+}
+.o {
+  color: var(--blue);
+}
+
+.home-container-img {
+  width: 70%;
+}
+
+@media screen and (max-width: 786px) {
+  .home-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .home-container-img {
+    
+    width: 100%;
+  }
+
+  .home-container-text {
+    font-weight: bold;
+    display: flex;
+    gap: 2vw;
+    height: 20vh;
+  
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: var(--blue);
+  }
+}
