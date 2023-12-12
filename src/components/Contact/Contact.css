@@ -1,4 +1,5 @@
 .contact-container {
+  margin-top: 5vh;
   display: flex;
   height: 80vh;
   justify-content: space-between;
@@ -20,10 +21,11 @@
 
 
 .contact-img img {
-  width: 60vw;
+  width: 70vw;
   height: 60vh;
   object-fit: cover;
   justify-content: center;
+  margin-top: 5vh;
 }
 
 .contact-data {
@@ -77,10 +79,6 @@
 }
 
 @media screen and (max-width: 786px) {
-
-
-
-
 
   .contact-container {
     width: 100%;

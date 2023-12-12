@@ -17,7 +17,7 @@ const Contact = () => {
           Get the information to start decorating your home with FLUX Furnituring makes it easier to do what you do best -- create.
         </div>
         <div className="contact-img">
-          <img src={cimg} alt="" />
+          <img src="https://media.istockphoto.com/id/1044827658/photo/an-elegant-navy-blue-sofa-in-the-middle-of-a-bright-living-room-interior-with-gold-metal-side.jpg?s=612x612&w=0&k=20&c=13hiA0lCPkUMUxngbbG6UyGqJC4oP0DpQzZvZzxvXIc=" alt="" />
         </div>
 
   
