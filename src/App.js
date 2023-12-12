@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Products from "./components/Products/Products";
 import DisplayItemList from "./components/DisplayProducts/DisplayItemList";
+import ItemDet from "./components/Itemdata/ItemDet";
 
 function App() {
   return (
@@ -17,12 +18,8 @@ function App() {
           <Route path="/product" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/products/:category" element={<DisplayItemList/>} />
-          {/* <Route path="/products/:category/:productId" element={<ProductDetails />} /> */}
-
-
-
-
+          <Route path="/products/:category" element={<DisplayItemList />} />
+          <Route path="/products/:category/:id" element={<ItemDet />} />
         </Routes>
       </div>
     </Router>

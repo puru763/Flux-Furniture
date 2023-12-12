@@ -1,4 +1,11 @@
-.CategoryContainer-data{
+.CategoryContainer-data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 786px) {
+  .CategoryContainer-data {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }

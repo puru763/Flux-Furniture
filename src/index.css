@@ -2,3 +2,7 @@
   --white: #ffffff;
   --blue: #0c264e;
 }
+
+img{
+  border-radius: 0.5rem;
+}

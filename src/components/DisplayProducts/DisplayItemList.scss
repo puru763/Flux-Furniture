@@ -1,0 +1,11 @@
+.dl-container{
+    display: flex;
+    overflow-y: auto;
+    width: 95%;
+  padding-top: 6vh;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
